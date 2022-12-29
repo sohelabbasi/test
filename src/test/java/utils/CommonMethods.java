@@ -35,13 +35,12 @@ public class CommonMethods extends PageInitializers{
                 WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
                 break;
-
-
             case "edge":
                 WebDriverManager.edgedriver().setup();
                 driver = new EdgeDriver();
                 break;
             default:
+
                 throw new RuntimeException("Invalid browser name");
         }
         driver.manage().window().maximize();
