@@ -35,6 +35,8 @@ public class CommonMethods extends PageInitializers{
                 WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
                 break;
+
+
             case "edge":
                 WebDriverManager.edgedriver().setup();
                 driver = new EdgeDriver();
