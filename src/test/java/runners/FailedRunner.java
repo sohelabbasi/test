@@ -14,6 +14,8 @@ import org.junit.runner.RunWith;
         //if step def is missing, it will provide step def for particular step
         //this message is just to test the pipeline functionality
         plugin = {"pretty"}
+
+
 )
 
 public class FailedRunner {
